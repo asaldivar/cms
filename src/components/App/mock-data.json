@@ -1,0 +1,659 @@
+{
+  "versions": [
+    {
+      "name": "original",
+      "is_default": true,
+      "start_time": "2018-12-11T01:52:20",
+      "end_time": "2018-12-11T01:52:20",
+      "pages": [
+        {
+          "page_id": "7b19724b-eca3-42d4-b6b0-6ffca66ae227",
+          "name": "makeup",
+          "type": "landing",
+          "sections": [
+            {
+              "section_id": "4",
+              "components": [
+                {
+                  "component_id": "4-1",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                },
+                {
+                  "component_id": "4-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "3",
+              "components": [
+                {
+                  "component_id": "3-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "2",
+              "components": [
+                {
+                  "component_id": "2-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                },
+                {
+                  "component_id": "2-2",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                },
+                {
+                  "component_id": "2-3",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "category_id": "15",
+              "slug": "eyes",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            },
+            {
+              "slug": "face",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            },
+            {
+              "slug": "lips",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            }
+          ]
+        },
+        {
+          "page_id": "2",
+          "name": "shop",
+          "type": "landing",
+          "sections": [
+            {
+              "section_id": "3",
+              "components": [
+                {
+                  "component_id": "3-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "4",
+              "components": [
+                {
+                  "component_id": "4-1",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                },
+                {
+                  "component_id": "4-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "1",
+              "components": [
+                {
+                  "component_id": "1-1",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                },
+                {
+                  "component_id": "1-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                },
+                {
+                  "component_id": "1-3",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                },
+                {
+                  "component_id": "1-2",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "2",
+              "components": [
+                {
+                  "component_id": "2-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                },
+                {
+                  "component_id": "2-2",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                },
+                {
+                  "component_id": "2-3",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "category_id": "16",
+              "slug": "sale",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            },
+            {
+              "slug": "clearance",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            }
+          ]
+        },
+        {
+          "page_id": "3",
+          "name": "skincare",
+          "type": "landing",
+          "sections": [
+            {
+              "section_id": "4",
+              "components": [
+                {
+                  "component_id": "4-1",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                },
+                {
+                  "component_id": "4-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "3",
+              "components": [
+                {
+                  "component_id": "3-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "2",
+              "components": [
+                {
+                  "component_id": "2-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                },
+                {
+                  "component_id": "2-2",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                },
+                {
+                  "component_id": "2-3",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x350",
+                    "action_url": "https://source.unsplash.com/random/800x350"
+                  }
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "category_id": "17",
+              "slug": "face-cleanser",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            },
+            {
+              "slug": "face-cream",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            },
+            {
+              "slug": "acne-treatment",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "new-years",
+      "start_time": "2018-12-11T01:52:20",
+      "end_time": "2018-12-11T01:52:20",
+      "pages": [
+        {
+          "page_id": "7b19724b-eca3-42d4-b6b0-6ffca66ae228",
+          "name": "makeup",
+          "type": "landing",
+          "sections": [
+            {
+              "section_id": "4",
+              "components": [
+                {
+                  "component_id": "4-1",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                },
+                {
+                  "component_id": "4-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "3",
+              "components": [
+                {
+                  "component_id": "3-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "2",
+              "components": [
+                {
+                  "component_id": "2-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                },
+                {
+                  "component_id": "2-2",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                },
+                {
+                  "component_id": "2-3",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "category_id": "12",
+              "slug": "eyes",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            },
+            {
+              "slug": "face",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            },
+            {
+              "slug": "lips",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            }
+          ]
+        },
+        {
+          "page_id": "2",
+          "name": "shop",
+          "type": "landing",
+          "sections": [
+            {
+              "section_id": "4",
+              "components": [
+                {
+                  "component_id": "4-1",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                },
+                {
+                  "component_id": "4-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "3",
+              "components": [
+                {
+                  "component_id": "3-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "13",
+              "components": [
+                {
+                  "component_id": "1-1",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                },
+                {
+                  "component_id": "1-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                },
+                {
+                  "component_id": "1-3",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                },
+                {
+                  "component_id": "1-2",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "2",
+              "components": [
+                {
+                  "component_id": "2-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                },
+                {
+                  "component_id": "2-2",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                },
+                {
+                  "component_id": "2-3",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "category_id": "18",
+              "slug": "sale",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            },
+            {
+              "slug": "clearance",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            }
+          ]
+        },
+        {
+          "page_id": "3",
+          "name": "skincare",
+          "type": "landing",
+          "sections": [
+            {
+              "section_id": "4",
+              "components": [
+                {
+                  "component_id": "4-1",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                },
+                {
+                  "component_id": "4-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "3",
+              "components": [
+                {
+                  "component_id": "3-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                }
+              ]
+            },
+            {
+              "section_id": "2",
+              "components": [
+                {
+                  "component_id": "2-4",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                },
+                {
+                  "component_id": "2-2",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                },
+                {
+                  "component_id": "2-3",
+                  "type": "cover",
+                  "cover": {
+                    "image_url": "https://source.unsplash.com/random/800x351",
+                    "action_url": "https://source.unsplash.com/random/800x351"
+                  }
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "category_id": "14",
+              "slug": "face-cleanser",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            },
+            {
+              "slug": "face-cream",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            },
+            {
+              "slug": "acne-treatment",
+              "family": "family",
+              "cover": {
+                "image_url": "https://source.unsplash.com/random/800x350",
+                "action_url": "https://source.unsplash.com/random/800x350"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

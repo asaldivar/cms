@@ -1,0 +1,131 @@
+
+load("@build_bazel_rules_nodejs//:defs.bzl", "nodejs_binary")
+load("//:bazel_rules/webpack.bzl","webpack")
+
+# Config file sources
+filegroup(
+    name = "config_files",
+    srcs =  glob([
+        ".env",
+        ".babelrc",
+        "bootstrap.bazel.js",
+        "config/*.js",
+        "config/**/*.js",
+        "package.json",
+    ]),
+    visibility = ["//visibility:public"],
+)
+
+# Source code
+filegroup(
+    name = "src_files",
+    srcs =  glob([
+        "public/*",
+        "scripts/*.js",
+        "src/*",
+        "src/**/*",
+    ]),
+    visibility = ["//visibility:public"],
+)
+
+# Dependencies
+DEPS = [
+    "@npm//@babel/core",
+    "@npm//@material-ui/core",
+    "@npm//@material-ui/icons",
+    "@npm//@svgr/webpack",
+    "@npm//babel-core",
+    "@npm//babel-eslint",
+    "@npm//babel-jest",
+    "@npm//babel-loader",
+    "@npm//babel-plugin-named-asset-import",
+    "@npm//babel-preset-react-app",
+    "@npm//@babel/plugin-proposal-class-properties",
+    "@npm//bfj",
+    "@npm//camelcase-keys",
+    "@npm//case-sensitive-paths-webpack-plugin",
+    "@npm//chalk",
+    "@npm//css-loader",
+    "@npm//dotenv",
+    "@npm//dotenv-expand",
+    "@npm//eslint",
+    "@npm//eslint-config-react-app",
+    "@npm//eslint-loader",
+    "@npm//eslint-plugin-flowtype",
+    "@npm//eslint-plugin-import",
+    "@npm//eslint-plugin-jsx-a11y",
+    "@npm//eslint-plugin-react",
+    "@npm//file-loader",
+    "@npm//fork-ts-checker-webpack-plugin-alt",
+    "@npm//fs-extra",
+    "@npm//html-webpack-plugin",
+    "@npm//identity-obj-proxy",
+    "@npm//jest",
+    "@npm//jest-pnp-resolver",
+    "@npm//jest-resolve",
+    "@npm//mini-css-extract-plugin",
+    "@npm//optimize-css-assets-webpack-plugin",
+    "@npm//pnp-webpack-plugin",
+    "@npm//postcss-flexbugs-fixes",
+    "@npm//postcss-loader",
+    "@npm//postcss-preset-env",
+    "@npm//postcss-safe-parser",
+    "@npm//react",
+    "@npm//react-app-polyfill",
+    "@npm//react-dev-utils",
+    "@npm//react-dnd",
+    "@npm//react-dnd-html5-backend",
+    "@npm//react-dom",
+    "@npm//react-redux",
+    "@npm//react-router-dom",
+    "@npm//react-slick",
+    "@npm//redux",
+    "@npm//redux-devtools-extension",
+    "@npm//redux-thunk",
+    "@npm//resolve",
+    "@npm//sass-loader",
+    "@npm//style-loader",
+    "@npm//styled-components",
+    "@npm//terser-webpack-plugin",
+    "@npm//url-loader",
+    "@npm//uuid",
+    "@npm//webpack",
+    "@npm//webpack-cli",
+    "@npm//webpack-dev-server",
+    "@npm//webpack-manifest-plugin",
+    "@npm//workbox-webpack-plugin"
+]
+
+nodejs_binary(
+    name = "dev",
+    entry_point = "mono/javascript/web-admin/scripts/start.js",
+    bootstrap = [
+        "mono/javascript/web-admin/bootstrap.bazel.js"
+    ],
+    data = [
+        ":config_files",
+        ":src_files",
+    ] + DEPS
+)
+
+webpack(
+    name = "webpack",
+    config = "config/webpack.config.prod.js",
+    webpack_exec = ":_webpack_exec",
+    data = [
+        ":config_files",
+        ":src_files",
+    ] + DEPS
+)
+
+# We need to run webpack-cli inside of a nodejs wrapper that is configured with our npm modules
+# This is not meant to be run directly, but is called by the webpack rule above
+nodejs_binary(
+    name = "_webpack_exec",
+    entry_point = "webpack/bin/webpack.js",
+    templated_args = ["--node_options=--preserve-symlinks"],
+    data = [
+        ":config_files",
+        ":src_files",
+    ] + DEPS
+)
